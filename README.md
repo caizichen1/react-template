@@ -14,6 +14,7 @@ npm run build
 `react-router`,`axios`
 
 ### 目录结构
+```
 —————— public 静态文件
 ｜
 ｜———— src 
@@ -28,3 +29,4 @@ npm run build
 ｜  ｜———— index.js 入口JavaScript
 ｜
 ｜———— package.json等配置文件
+```
