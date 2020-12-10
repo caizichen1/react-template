@@ -15,7 +15,6 @@ class App extends React.Component {
   };
 
   render() {
-    console.log(this.generateRoute(routers));
     return (
       <div className="app">
         <HashRouter>
