@@ -1,17 +1,22 @@
 # react-template
-@czc/cli脚手架模板
+> @czc/cli脚手架模板
 
 ### 安装依赖
+```js
 npm install
+```
 
 ### 运行项目
+```js
 npm run dev
+```
 
 ### 打包
+```js
 npm run build
-
+```
 ### 包含插件
-`react-router`,`axios`
+> `react-router`,`axios`
 
 ### 目录结构
 ```
