@@ -1,3 +1,6 @@
+/*
+ * @LastEditors: caizichen
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Route, Switch } from 'react-router-dom';
@@ -8,7 +11,7 @@ class App extends React.Component {
     const finalRoutes = router.map(item => {
       const { path, component } = item;
       return (
-        <Route key={path} path={path} component={component}></Route>
+        <Route key={path} path={path} component={component} exact></Route>
       );
     });
     return finalRoutes;
