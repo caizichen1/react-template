@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.sass'
+import './index.scss'
 
 export default class Index extends React.Component {
   constructor(props) {
